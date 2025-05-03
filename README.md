@@ -25,11 +25,4 @@ The model used in this application was trained using historical auction data. Th
 3. **Training**: Trained the model using the training data and evaluated its performance.
 4. **Model Serialization**: Once the model was trained, it was serialized using `joblib` for easy deployment.
 
-If you wish to retrain the model or use it for further experiments, you can follow these steps:
 
-### Retraining the Model
-
-To retrain the model on your own data, run the following script:
-
-```bash
-python train_model.py

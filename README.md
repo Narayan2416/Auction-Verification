@@ -21,9 +21,9 @@ Feel free to explore the deployed application to experience real-time auction ve
 The model used in this application was trained using historical auction data. The following steps were followed to train the model:
 
 1. **Data Collection**: Collected and preprocessed auction-related data, including bids and item details.
-2. **Model Selection**: Chose a machine learning model (e.g., `RandomForestClassifier`, `KNeighborsClassifier`, etc.) for classification.
+2. **Model Selection**: Chose a machine learning model (e.g., `DecisionTreeClassifier`) for classification.
 3. **Training**: Trained the model using the training data and evaluated its performance.
-4. **Model Serialization**: Once the model was trained, it was serialized using `pickle` or `joblib` for easy deployment.
+4. **Model Serialization**: Once the model was trained, it was serialized using `joblib` for easy deployment.
 
 If you wish to retrain the model or use it for further experiments, you can follow these steps:
 

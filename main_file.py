@@ -33,7 +33,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.title("🔍 Verification Result Prediction")
+st.title("🔍 Verification Result Prediction _ for CI")
 st.write("Fill in the details below and click **Predict** to get the result.")
 
 # Input fields for user to enter values
@@ -65,4 +65,5 @@ if st.button("🚀 Predict"):
     if prediction_bool:
         st.success("✅ **Verification Passed!**")
     else:
+
         st.success("❌ **Verification Failed!**")
